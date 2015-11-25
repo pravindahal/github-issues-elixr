@@ -1,5 +1,5 @@
 defmodule Issues.GithubIssues do
-  @user_agent "Elixir pravindahal@gmail.com"
+  @user_agent "Elixir example"
   @github_url Application.get_env(:issues, :github_url)
 
   require Logger
